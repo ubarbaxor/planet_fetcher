@@ -4,6 +4,7 @@
   "description": "Tool to fetch Planet data",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ubarbaxor/planet_fetcher/issues"
   },
-  "homepage": "https://github.com/ubarbaxor/planet_fetcher#readme"
+  "homepage": "https://github.com/ubarbaxor/planet_fetcher#readme",
+  "dependencies": {
+    "@planet/client": "^2.2.1"
+  }
 }
